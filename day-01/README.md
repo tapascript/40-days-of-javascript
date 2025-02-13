@@ -22,7 +22,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ## Video
 Here is the video for you to go through and learn:
 
-[![day-01](./banner.png)](https://youtu.be/JSLTS3dfHKU "Video")
+[![day-01](./banner.png)](https://youtu.be/t8QXF85YovE "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 
