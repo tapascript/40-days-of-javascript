@@ -16,4 +16,5 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ## Table of Content
 
 - **`Day 1: Introduction to JavaScript & Setting Up the Environment`** - [Watch Video](https://youtu.be/t8QXF85YovE) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-01/README.md)
+- **`Day 2: Variables (let, const, var) & Data Types`** - [Watch Video](https://www.youtube.com/watch?v=tVqy4Tw0i64) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-02/README.md)
 
