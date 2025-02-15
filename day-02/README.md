@@ -2,14 +2,11 @@
 
 ## **🎯 Goal of This Lesson**
 
-- Welcome to the "40 Days of JavaScript" series!
-- How to follow the progress tracker?
-- What is JavaScript, and why should you learn it?
-- Setting up your development environment (VS Code, browser, and Node.js).
-- Writing and running your first JavaScript code.
-- Loading JavaScript in different ways (`async`, `defer`).
-- Quick roadmap of what’s coming in this series.
-- Task and How to Submit
+- What is Variable?
+- How to visialize variables?
+- How Variables get stored?
+- JavaScript Data Types
+- How JavaScript sees code?
 
 ## 🫶 Support
 Liked it? It takes months of hard work to create quality content and present to you. You can show your support to me with a STAR(⭐) to this repository.
@@ -22,7 +19,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ## Video
 Here is the video for you to go through and learn:
 
-[![day-01](./banner.png)](https://youtu.be/t8QXF85YovE "Video")
+[![day-02](./banner.png)](https://www.youtube.com/watch?v=tVqy4Tw0i64 "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 
