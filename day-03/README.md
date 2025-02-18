@@ -1,12 +1,20 @@
-# Day 02 - 40 Days of JavaScript
+# Day 03 - 40 Days of JavaScript
 
 ## **🎯 Goal of This Lesson**
 
-- What is Variable?
-- How to visialize variables?
-- How Variables get stored?
-- JavaScript Data Types
-- How JavaScript sees code?
+- What are Operands, Operators, Expressions?
+- What are difefrent types of Operators?
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- Conditional Ternary Operator
+- Bitwise Operator
+- Relational Operator
+- Grouping and Precedence
+- typeof Operator
+- instanceof Operator
+- Tasks and Practices
 
 ## 🫶 Support
 Your support means a lot.
@@ -22,11 +30,8 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ## Video
 Here is the video for you to go through and learn:
 
-[![day-02](./banner.png)](https://www.youtube.com/watch?v=tVqy4Tw0i64 "Video")
+[![day-03](./banner.png)](https://youtu.be/vI95K-_JLOw "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 
-- ✅ Task 1: Declare variables for a person’s name, age, isStudent status, and favorite programming language.
-- ✅ Task 2: Print the values to the console.
-- ✅ Task 3: Try reassigning values to let and const variables and observe errors.
-- ✅ Task 4: Create an object and an array, assign them to new variables, modify, and observe changes.
+Please find the task assignments in the [Task File](./task.md).
