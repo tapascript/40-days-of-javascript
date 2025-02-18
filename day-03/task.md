@@ -31,7 +31,7 @@ Let's calculate how much you pay for electricity bills per month and annually.
 
 - [ ] Create a `units` variable. Based on this value you will calculate the total electricity bill for a months.
 - [ ] If each day you consume the `units` and each unit cost 150 rupees, how much will you be charged per month?
-- If there is a 20% discount on the annual payment, how much will you be charged for an annual payment?
+- [ ] If there is a 20% discount on the annual payment, how much will you be charged for an annual payment?
 
 ## 6. Leap Year Checker
 Is 2025 a Leap Year?
