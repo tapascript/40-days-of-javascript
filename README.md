@@ -2,9 +2,12 @@
 Learn 40 days of JavaScript on [tapaScript](https://youtube.com/tapasadhikary). It is to take you from the Beginner to an Expert JavaScript developer with al fundamentals and projects.
 
 ## 🫶 Support
-Liked it? It takes months of hard work to create quality content and present it to you. You can show your support to me with a STAR(⭐) to this repository.
+Your support means a lot.
 
-> Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
+- Please SUBSCRIBE to [tapaScript YouTube Channel](https://youtube.com/tapasadhikary) if not done already. A Big Thank You!
+- Liked my work? It takes months of hard work to create quality content and present it to you. You can show your support to me with a STAR(⭐) to this repository.
+
+    > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
 
 ### 🤝 Sponsor My Work
 I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Cofee](https://buymeacoffee.com/tapasadhikary)**.
@@ -15,6 +18,6 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 ## Table of Content
 
-- **`Day 1: Introduction to JavaScript & Setting Up the Environment`** - [Watch Video](https://youtu.be/t8QXF85YovE) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-01/README.md)
-- **`Day 2: Variables (let, const, var) & Data Types`** - [Watch Video](https://www.youtube.com/watch?v=tVqy4Tw0i64) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-02/README.md)
-
+- **`Day 01: Introduction to JavaScript & Setting Up the Environment`** - [Watch Video](https://youtu.be/t8QXF85YovE) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-01/README.md)
+- **`Day 02: Variables (let, const, var) & Data Types`** - [Watch Video](https://www.youtube.com/watch?v=tVqy4Tw0i64) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-02/README.md)
+- **`Day 03: Mater Operators and Expressions`** - [Watch Video](https://youtu.be/vI95K-_JLOw) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-03/README.md)
