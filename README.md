@@ -21,3 +21,4 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 01: Introduction to JavaScript & Setting Up the Environment`** - [Watch Video](https://youtu.be/t8QXF85YovE) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-01/README.md)
 - **`Day 02: Variables (let, const, var) & Data Types`** - [Watch Video](https://www.youtube.com/watch?v=tVqy4Tw0i64) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-02/README.md)
 - **`Day 03: Mater Operators and Expressions`** - [Watch Video](https://youtu.be/vI95K-_JLOw) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-03/README.md)
+- **`Day 04: Matering Control Flow with Quizzes`** - [Watch Video](https://youtu.be/Fn_DhBu3VyU) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-04/README.md)
