@@ -1,12 +1,19 @@
-# Day 04 - 40 Days of JavaScript
+# Day 05 - 40 Days of JavaScript
 
 ## **🎯 Goal of This Lesson**
 
-- What is Control Flow and Branching
-- Understanding if-else all possible scenarios
-- Undersatanding switch-case all possible scenarios
-- Comparioson study between if-else and switch-case
-- Test and Assignments
+- ✅ Logic Building and DSA
+- ✅ Loops in JavaScript
+- ✅ The for Loop
+- ✅ The for Loop Flow Chart
+- ✅ for Loop Examples
+- ✅ Nested Loop
+- ✅ The break and continue
+- ✅ Handling Multiple Counters
+- ✅ The while Loop
+- ✅ The do-while Loop
+- ✅ Infinite Loop
+- ✅ Task and Wrap Up
 
 ## 🫶 Support
 Your support means a lot.
@@ -22,7 +29,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ## Video
 Here is the video for you to go through and learn:
 
-[![day-04](./banner.png)](https://youtu.be/Fn_DhBu3VyU "Video")
+[![day-05](./banner.png)](https://youtu.be/MDR43-2GvtA "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 
