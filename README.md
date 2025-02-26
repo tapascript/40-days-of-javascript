@@ -23,3 +23,4 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 03: Master Operators and Expressions`** - [Watch Video](https://youtu.be/vI95K-_JLOw) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-03/README.md)
 - **`Day 04: Mastering Control Flow with Quizzes`** - [Watch Video](https://youtu.be/Fn_DhBu3VyU) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-04/README.md)
 - **`Day 05: Mastering Loops and Iterations with Quizzes`** - [Watch Video](https://youtu.be/MDR43-2GvtA) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-05/README.md)
+- **`Day 06: Mastering Functions and its Use Cases with Quizzes`** - [Watch Video](https://youtu.be/6UJ9SyHvkJY) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-05/README.md)
