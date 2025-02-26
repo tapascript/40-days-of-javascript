@@ -31,10 +31,10 @@ Your support means a lot.
 ### 🤝 Sponsor My Work
 I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Cofee](https://buymeacoffee.com/tapasadhikary)**.
 
-## Video
+## Video 
 Here is the video for you to go through and learn:
 
-[![day-05](./banner.png)](https://youtu.be/MDR43-2GvtA "Video")
+[![day-06](./banner.png)](https://www.youtube.com/watch?v=6UJ9SyHvkJY "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 
