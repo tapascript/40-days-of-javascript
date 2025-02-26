@@ -1,18 +1,23 @@
-# Day 06 - 40 Days of JavaScript
+# Day 05 - 40 Days of JavaScript
 
 ## **🎯 Goal of This Lesson**
 
-- ✅ Logic Building and DSA
-- ✅ Loops in JavaScript
-- ✅ The for Loop
-- ✅ The for Loop Flow Chart
-- ✅ for Loop Examples
-- ✅ Nested Loop
-- ✅ The break and continue
-- ✅ Handling Multiple Counters
-- ✅ The while Loop
-- ✅ The do-while Loop
-- ✅ Infinite Loop
+- ✅ Why to Learn
+- ✅ What is Function
+- ✅ Define a Function
+- ✅ Invoking a Function
+- ✅ Function as Expression
+- ✅ Parameter and Argument
+- ✅ Default Parameters
+- ✅ Rest parameter
+- ✅ Nested Functions
+- ✅ Callback Function
+- ✅ Pure Function
+- ✅ Higher Order Function
+- ✅ Arrow Function
+- ✅ IIFE
+- ✅ Call Stack
+- ✅ Recursion
 - ✅ Task and Wrap Up
 
 ## 🫶 Support
@@ -29,7 +34,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ## Video
 Here is the video for you to go through and learn:
 
-[![day-05](./banner.png)](https://youtu.be/6UJ9SyHvkJY "Video")
+[![day-05](./banner.png)](https://youtu.be/MDR43-2GvtA "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 
