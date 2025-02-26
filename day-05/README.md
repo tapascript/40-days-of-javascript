@@ -29,7 +29,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ## Video
 Here is the video for you to go through and learn:
 
-[![day-05](./banner.png)](https://youtu.be/6UJ9SyHvkJY "Video")
+[![day-05](./banner.png)](https://www.youtube.com/watch?v=MDR43-2GvtA&list=PLIJrr73KDmRw2Fwwjt6cPC_tk5vcSICCu&index=5 "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 

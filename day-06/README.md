@@ -2,7 +2,7 @@
 
 ## **🎯 Goal of This Lesson**
 
-- ✅ Why to Learn
+- ✅ What Will We Learn
 - ✅ What is Function
 - ✅ Define a Function
 - ✅ Invoking a Function
