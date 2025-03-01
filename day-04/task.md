@@ -24,8 +24,8 @@ Write a simple calculator that takes an operator (+, -, , /, %) as input, and pe
 
 ## 4. Pay for your movie ticket
 Imagine, the INOX charges ticket prices based on age:
-- Children (<10 years): $3
-- Adults (12 - 60 years): $10
+- Children (<18 years): $3
+- Adults (18 - 60 years): $10
 - Seniors (60+ years): $8
 
 Write a program that prints the ticket price based on the person’s age.
