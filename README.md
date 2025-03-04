@@ -28,3 +28,6 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 05: Mastering Loops and Iterations with Quizzes`** - [Watch Video](https://youtu.be/MDR43-2GvtA) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-05/README.md)
 - **`Day 06: Mastering Functions and its Use Cases with Quizzes`** - [Watch Video](https://youtu.be/6UJ9SyHvkJY) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-06/README.md)
 - **`Day 07: Building Beginner-Friendly JavaScript Projects`** - [Watch Video](https://youtu.be/fydbEttef04) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-07/README.md)
+
+### Module 2
+- **`Day 08: Mastering JavaScript Execution Context Visually`** - [Watch Video](https://youtu.be/ylx5F7hbzVQ) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-08/README.md)
