@@ -2,7 +2,6 @@
 
 ## **🎯 Goal of This Lesson**
 
-- ✅ Welcome to Module 2
 - ✅ Intro
 - ✅ Misconception About Hoisting
 - ✅ Variable Hoisting
