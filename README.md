@@ -33,3 +33,4 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 08: Mastering JavaScript Execution Context Visually`** - [Watch Video](https://youtu.be/ylx5F7hbzVQ) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-08/README.md)
 - **`Day 09: Mastering Temporal Dead Zone and Hoisting`** - [Watch Video](https://youtu.be/OqMxh1QdYEg) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-09/README.md)
 - **`Day 10: Mastering Scope and Scope Chain`** - [Watch Video](https://youtu.be/14H2TsrjcLo) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-10/README.md)
+- **`Day 11: Learn Closures With Real-World Examples`** - [Watch Video](https://youtu.be/lA7CGz3iHyI) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-11/README.md)
