@@ -191,9 +191,9 @@ const emp = {
 
 Object.freeze(emp);
 
-emp.salary = 200;
+emp.sal = 200;
 emp.name = "Alex";
-delete emp.salary;
+delete emp.sal;
 
 console.log(emp)
 
