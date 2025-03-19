@@ -1,7 +1,9 @@
 # 40-days-of-javascript
+
 Learn 40 days of JavaScript on [tapaScript](https://youtube.com/tapasadhikary). It is to take you from the Beginner to an Expert JavaScript developer with al fundamentals and projects.
 
 ## 🫶 Support
+
 Your support means a lot.
 
 - Please SUBSCRIBE to [tapaScript YouTube Channel](https://youtube.com/tapasadhikary) if not done already. A Big Thank You!
@@ -11,11 +13,12 @@ Your support means a lot.
     [![Stargazers repo roster for tapascript/40-days-of-javascript](https://reporoster.com/stars/tapascript/40-days-of-javascript)](https://github.com/atapas/tapascript/40-days-of-javascript)
 
 ### 🤝 Sponsor My Work
+
 I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Cofee](https://buymeacoffee.com/tapasadhikary)**.
 
 ## 🥇 Join the Discord Server
 
-- Join Discord Server to Collaborate and Learn: https://discord.gg/ux9BchWEW3
+- Join Discord Server to Collaborate and Learn: [https://discord.gg/ux9BchWEW3](https://discord.gg/ux9BchWEW3)
 
 ## Table of Content
 
@@ -30,8 +33,10 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 07: Building Beginner-Friendly JavaScript Projects`** - [Watch Video](https://youtu.be/fydbEttef04) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-07/README.md)
 
 ### Module 2
+
 - **`Day 08: Mastering JavaScript Execution Context Visually`** - [Watch Video](https://youtu.be/ylx5F7hbzVQ) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-08/README.md)
 - **`Day 09: Mastering Temporal Dead Zone and Hoisting`** - [Watch Video](https://youtu.be/OqMxh1QdYEg) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-09/README.md)
 - **`Day 10: Mastering Scope and Scope Chain`** - [Watch Video](https://youtu.be/14H2TsrjcLo) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-10/README.md)
 - **`Day 11: Learn Closures With Real-World Examples`** - [Watch Video](https://youtu.be/lA7CGz3iHyI) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-11/README.md)
 - **`Day 12: Mastering JavaScript Objects Real-World Examples`** - [Watch Video](https://youtu.be/c5vEfYj5yZM) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-12/README.md)
+- **`Day 13: IS "this" Weired? Let's Break it down.`** - [Watch Video](https://youtu.be/9mfb0j9PcHw) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-13/README.md)
