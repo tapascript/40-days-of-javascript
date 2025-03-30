@@ -4,65 +4,65 @@
 
 ## 📚 Course Flow
 
-- [X] Introduction
-- [X] What is an Array in JavaScript?
-- [X] How to Create an Array in JavaScript?
-- [X] How to Get Elements from an Array in JS?
-- [X] How to Add Elements to an Array in JS?
-- [X] How to Remove Elements from an Array in JS?
-- [X] How to Copy and Clone an Array in JS?
-- [X] How to Determine if a Value is an Array in JS?
-- [X] Array Destructuring in JavaScript
-  - [X] How to Assign a Default Value to a Variable?
-  - [X] How to Skip a Value in an Array?
-  - [X] Nested Array Destructuring in JS
-- [X] How to Use the Rest Parameter in JS?
-- [X] How to Use the Spread Operator in JS?
-- [X] Destructuring Use Cases in JavaScript
-  - [X] How to Swap Values with Destructuring?
-  - [X] How to Merge Arrays?
-- [X] The length property
-- [ ] JavaScript Array Methods
-  - [X] How to Create, Remove, Update, and Access Arrays in JavaScript?
-    - [X] The concat() array method
-    - [X] The join() array method
-    - [X] The fill() array method
-    - [X] The includes() array method
-    - [X] The indexOf() array method
-    - [X] The reverse() array method
-    - [X] The sort() array method
-    - [X] The splice() array method
-    - [X] The at() Method
-    - [X] The copyWithin() Method
-    - [X] The flat() Method
-    - [X] Grouping elements in Array
-  - [ ] Static Array Methods in JavaScript
-    - [X] The Array-Like
-    - [X] The Array.from() array method
-    - [X] The Array.fromAsync() array method
-    - [X] The Array.of() array method
-  - [ ] Array Iterator Methods in JavaScript
-    - [X] The filter() array method
-    - [X] The map() array method
-    - [X] The reduce() array method
-    - [X] The reduceRight() array method
-    - [X] The some() array method
-    - [X] The every() array method
-    - [X] The find() array method
-    - [X] The findIndex() array method
-    - [X] The findLast() array method
-    - [X] The findLastIndex() array method
-    - [X] Array method Chaining
-    - [X] The forEach() array method
-    - [ ] The entries() method
-    - [ ] The values() method
-    - [ ] The flatMap() array method
-  - [X] Immutability
-    - [X] The toReversed() method
-    - [X] The toSorted() method
-    - [X] The toSpliced() method
-    - [X] The with() method
-- [X] Tasks and Quizzes With Interview Questions
+- ✅ Introduction
+- ✅ What is an Array in JavaScript?
+- ✅ How to Create an Array in JavaScript?
+- ✅ How to Get Elements from an Array in JS?
+- ✅ How to Add Elements to an Array in JS?
+- ✅ How to Remove Elements from an Array in JS?
+- ✅ How to Copy and Clone an Array in JS?
+- ✅ How to Determine if a Value is an Array in JS?
+- ✅ Array Destructuring in JavaScript
+  - ✅ How to Assign a Default Value to a Variable?
+  - ✅ How to Skip a Value in an Array?
+  - ✅ Nested Array Destructuring in JS
+- ✅ How to Use the Rest Parameter in JS?
+- ✅ How to Use the Spread Operator in JS?
+- ✅ Destructuring Use Cases in JavaScript
+  - ✅ How to Swap Values with Destructuring?
+  - ✅ How to Merge Arrays?
+- ✅ The length property
+- ✅ JavaScript Array Methods
+  - ✅ How to Create, Remove, Update, and Access Arrays in JavaScript?
+    - ✅ The concat() array method
+    - ✅ The join() array method
+    - ✅ The fill() array method
+    - ✅ The includes() array method
+    - ✅ The indexOf() array method
+    - ✅ The reverse() array method
+    - ✅ The sort() array method
+    - ✅ The splice() array method
+    - ✅ The at() Method
+    - ✅ The copyWithin() Method
+    - ✅ The flat() Method
+    - ✅ Grouping elements in Array
+  - ✅ Static Array Methods in JavaScript
+    - ✅ The Array-Like
+    - ✅ The Array.from() array method
+    - ✅ The Array.fromAsync() array method
+    - ✅ The Array.of() array method
+  - ✅ Array Iterator Methods in JavaScript
+    - ✅ The filter() array method
+    - ✅ The map() array method
+    - ✅ The reduce() array method
+    - ✅ The reduceRight() array method
+    - ✅ The some() array method
+    - ✅ The every() array method
+    - ✅ The find() array method
+    - ✅ The findIndex() array method
+    - ✅ The findLast() array method
+    - ✅ The findLastIndex() array method
+    - ✅ Array method Chaining
+    - ✅ The forEach() array method
+    - ✅ The entries() method
+    - ✅ The values() method
+    - ✅ The flatMap() array method
+  - ✅ Immutability
+    - ✅ The toReversed() method
+    - ✅ The toSorted() method
+    - ✅ The toSpliced() method
+    - ✅ The with() method
+- ✅ Tasks and Quizzes With Interview Questions
 
 ## 🫶 Support
 
