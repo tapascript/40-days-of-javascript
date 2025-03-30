@@ -62,7 +62,7 @@
     - [X] The toSorted() method
     - [X] The toSpliced() method
     - [X] The with() method
-- [ ] Tasks and Quizzes With Interview Questions
+- [X] Tasks and Quizzes With Interview Questions
 
 ## 🫶 Support
 
