@@ -43,3 +43,4 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`LIVE 01: STOP Writing Bad JavaScript Code and Upgrade Your Skills Now!`** - [Watch Video](https://www.youtube.com/watch?v=1XW_g3Ik3l8) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/live/live-one/questions.md)
 - **`Day 14: Error Handling in javaScript`** - [Watch Video](https://youtu.be/XpMW-gxNYD8) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-14/README.md)
 - **`Day 15: JavaScript Array Master Course - Beginner to PRO`** - [Watch Video](https://youtu.be/t05NguKFKo0) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-15/README.md)
+- **`Day 16: JavaScript Code Debugging 101`** - [Watch Video](https://youtu.be/VInAd-GJZec) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-16/README.md)

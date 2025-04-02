@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Wish - Debugging App</title>
+        <link rel="stylesheet" href="index.css" />
+        <script src="index.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Let's Wish</h1>
+            <form>
+                <label for="m_name">Hey, I am:</label> <br />
+                <input type="text" id="m_name" name="m_name" class="input"/> <br /><br />
+                <label for="m_wish">I wish for:</label> <br />
+                <textarea id="m_wish" name="m_wish" class="input"></textarea> <br /><br />
+                <input type="button" class="btn" value="Make a Wish" onClick="print()"/>
+            </form>
+
+            <div id="output" class="content"></div>
+        </div>
+    </body>
+</html>
