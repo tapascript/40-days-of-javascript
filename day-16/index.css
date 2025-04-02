@@ -1,0 +1,48 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+}
+
+.container {
+    padding: 30px;
+}
+
+.btn {
+    font-size: 1em;
+    padding: 0.25em 1em;
+    border: 2px solid #dbd270;
+    border-radius: 3px;
+    background: white;
+    color: palevioletred;
+    cursor: pointer;
+}
+
+.content {
+    align-items: center;
+    margin-top: 30px;
+}
+
+.message {
+    background: palevioletred;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.input {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 80px;
+    width: 350px;
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 350px;
+}
