@@ -1,0 +1,14 @@
+.info {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.action {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
