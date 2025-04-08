@@ -3,21 +3,23 @@
 ## **🎯 Goal of This Lesson**
 
 - ✅ Module 3 & DOM
-- ✅ Expense Tracker Project
-- ✅ What is DOM?
-- ✅ DOM and JavaScript
-- ✅ What else to Cover?
-- ✅ DOM Types
-- ✅ Accessing DOM
-- ✅ Get Element By ID
-- ✅ Get Element By Class Name
-- ✅ Get Element By Tag Name
-- ✅ Query Selector
-- ✅ Query Selector All
-- ✅ Mini Project 1
-- ✅ Mini Project 2
-- ✅ About Task
-- ✅ Playing With DOM on DevTools
+- ✅ Intro to DOM Manipulation
+- ✅ What Will We Learn?
+- ✅ Create Elements
+- ✅ Inserting Elements - Before
+- ✅ Inserting Elements - After
+- ✅ Modify Content - innerHTML
+- ✅ Security Risk of innerHTML
+- ✅ Modify Content - textContent
+- ✅ Removing Elements
+- ✅ Travarsing DOM
+- ✅ Manipulating Styles
+- ✅ Manipulating Classes
+- ✅ Working with classLIst
+- ✅ Controlling Visibility
+- ✅ Project 1 - Toggle Me
+- ✅ Project 2 - Task Manager
+0- ✅ Tasks and Wrapping Up
 
 ## 🫶 Support
 
