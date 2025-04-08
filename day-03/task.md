@@ -45,7 +45,7 @@ Find the max number from the lot.
 - [ ] Take three numbers and assign them to variables p, q, and r.
 - [ ] Now find the maximum of these three numbers using the comparison operators.
 
-## 8. Biwise Doubling
+## 8. Bitwise Doubling
 A tricky one for you
 
 - [ ] Create a variable `count` and assign  a value, say, 5.
