@@ -48,3 +48,5 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ### Module 3
 
 - **`Day 17: Introduction to JavaScript DOM`** - [Watch Video](https://youtu.be/F4mVSaj6uls) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-17/README.md)
+- **`Day 18: DOM Manipulations and Project`** - [Watch Video](https://www.youtube.com/watch?v=BoYgn_Mf0hA) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-18/README.md)
+- **`Day 19: Master JavaScript Events Like a PRO`** - [Watch Video](https://youtu.be/ybgI5vVE668) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-19/README.md)
