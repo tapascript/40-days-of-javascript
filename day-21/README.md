@@ -34,7 +34,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 Here is the video for you to go through and learn:
 
-[![day-21](./banner.png)](https://youtu.be/aNhPav1DgTY "Video")
+[![day-21](./banner.png)](https://youtu.be/hTDeyBq5EdM "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Project**
 
