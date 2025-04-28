@@ -51,3 +51,4 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 18: DOM Manipulations and Project`** - [Watch Video](https://www.youtube.com/watch?v=BoYgn_Mf0hA) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-18/README.md)
 - **`Day 19: Master JavaScript Events Like a PRO`** - [Watch Video](https://youtu.be/ybgI5vVE668) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-19/README.md)
 - **`Day 20: Advanced DOM Tips and Tricks`** - [Watch Video](https://youtu.be/aNhPav1DgTY) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-20/README.md)
+- **`Day 21: Build Quiz App Using JavaScript DOM APIs`** - [Watch Video](https://youtu.be/hTDeyBq5EdM) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-21/README.md)
