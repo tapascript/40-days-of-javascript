@@ -15,7 +15,11 @@
 
 ## How to run the API?
 
-Open the terminal and change the directory to `api/pizzahub`. Then install the depenedencies with `npm install` command. Run the API server locally with `npm run start` command. The API server will be available on `localhost:3000`.
+- Open the terminal and change the directory to `api/pizzahub`.
+- Then install the depenedencies with `npm install` command.
+- Run the API server locally with `npm run start` command.
+
+The API server will be available on `localhost:3000`.
 
 ## 🫶 Support
 
@@ -34,7 +38,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 Here is the video for you to go through and learn:
 
-[![day-22](./banner.png)](https://youtu.be/aNhPav1DgTY "Video")
+[![day-22](./banner.png)](https://youtu.be/EtoHtZ8mdWA "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 
