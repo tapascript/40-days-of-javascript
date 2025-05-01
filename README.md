@@ -22,7 +22,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 ## Table of Content
 
-### Module 1 - JavaScript Getting Started
+### Module 1 - Getting Started with JavaScript
 
 - **`Day 01: Introduction to JavaScript & Setting Up the Environment`** - [Watch Video](https://youtu.be/t8QXF85YovE) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-01/README.md)
 - **`Day 02: Variables (let, const, var) & Data Types`** - [Watch Video](https://www.youtube.com/watch?v=tVqy4Tw0i64) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-02/README.md)
@@ -32,7 +32,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 06: Mastering Functions and its Use Cases with Quizzes`** - [Watch Video](https://youtu.be/6UJ9SyHvkJY) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-06/README.md)
 - **`Day 07: Building Beginner-Friendly JavaScript Projects`** - [Watch Video](https://youtu.be/fydbEttef04) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-07/README.md)
 
-### Module 2 - JavaScript Foundation
+### Module 2 - JavaScript Foundational Knowledge
 
 - **`Day 08: Mastering JavaScript Execution Context Visually`** - [Watch Video](https://youtu.be/ylx5F7hbzVQ) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-08/README.md)
 - **`Day 09: Mastering Temporal Dead Zone and Hoisting`** - [Watch Video](https://youtu.be/OqMxh1QdYEg) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-09/README.md)
@@ -53,6 +53,6 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 20: Advanced DOM Tips and Tricks`** - [Watch Video](https://youtu.be/aNhPav1DgTY) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-20/README.md)
 - **`Day 21: Build Quiz App Using JavaScript DOM APIs`** - [Watch Video](https://youtu.be/hTDeyBq5EdM) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-21/README.md)
 
-### Module 4 - Async JavaScript
+### Module 4 - Asynchronous programming in JavaScript
 
 - **`Day 22: Asynchronous JavaScript - Callback`** - [Watch Video](https://youtu.be/EtoHtZ8mdWA) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-22/README.md)
