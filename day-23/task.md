@@ -56,8 +56,7 @@ Return a Promise that randomly resolves to "Heads" or "Tails" after 1 second.
   - “Second”
   - “Third”
 
-  ## 10. Implement fakeDBQuery()
+## 10. Implement fakeDBQuery()
 
-  - Create a function that simulates a DB query with a random delay and returns data (like a user object).
-  - Chain multiple fake queries.
-  
+- Create a function that simulates a DB query with a random delay and returns data (like a user object).
+- Chain multiple fake queries.
