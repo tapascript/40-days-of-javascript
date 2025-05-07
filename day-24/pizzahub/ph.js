@@ -57,3 +57,4 @@ async function orderPizza(type, name) {
 
 // Call the orderPizza method
 orderPizza("veg", "Margherita");
+
