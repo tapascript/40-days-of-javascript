@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "title": "What is 40 Days of JavaScript?",
+      "views": 160,
+      "id": "a9057951-515e-3da2-9793-af29719d0e33"
+    },
+    {
+      "id": "a9057951-215e-4da2-9793-af29719d0e33",
+      "title": "How to Split a String?",
+      "views": 201
+    },
+    {
+      "id": "095c3907-1308-4991-a7d9-aeb205803578",
+      "title": "How to Cancel a Request?",
+      "views": 0
+    },
+    {
+      "id": "4614e38f-4449-485c-a91d-6a923d4835af",
+      "title": "How to Parse JSON",
+      "views": 10
+    },
+    {
+      "id": "757da9a8-ba73-41b7-9a0b-ac22a666b3e8",
+      "title": "How to Cancel a Request?",
+      "views": 0
+    },
+    {
+      "id": "6bed2850-3f03-42e7-9379-60ba7a7e9162",
+      "title": "How to Parse JSON",
+      "views": 10
+    },
+    {
+      "id": "3e5e3304-d855-42ad-89ea-6a910f3f2db5",
+      "title": "How to Parse JSON",
+      "views": 10
+    },
+    {
+      "id": "08ebfcb4-37ea-4136-8ad7-c1d0ee82818c",
+      "title": "How to Cancel a Request?",
+      "views": 0
+    },
+    {
+      "id": "d507a983-9b86-4274-82e5-5627fa709208",
+      "title": "How to Cancel a Request?",
+      "views": 0
+    },
+    {
+      "id": "a56c5fcc-9a7d-45f5-9cfb-9b5eaf9fd0d2",
+      "title": "How to Parse JSON",
+      "views": 10
+    },
+    {
+      "id": "fd76409e-9c1c-4450-90d7-69bde043e94e",
+      "title": "How to Cancel a Request?",
+      "views": 0
+    },
+    {
+      "id": "1c0a0156-2850-4a96-aeeb-a61fb1400195",
+      "title": "How to Parse JSON",
+      "views": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "Great Post",
+      "postId": "a9057951-515e-3da2-9793-af29719d0e33"
+    },
+    {
+      "id": "2",
+      "text": "Learned something new",
+      "postId": "a9057951-515e-3da2-9793-af29719d0e33"
+    }
+  ],
+  "profile": {
+    "name": "tapaScript"
+  }
+}
