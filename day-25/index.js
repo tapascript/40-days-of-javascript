@@ -150,7 +150,7 @@ login();
 // - 8. fetch() Usage: Updating an Entire Resource
 
 async function updatePost(postData) {
-    console.log("Replacing a View Data...");
+    console.log("Replacing a POST Data...");
     const API_URL =
         "http://localhost:3000/posts/a9057951-515e-3da2-9793-af29719d0e33";
     try {
@@ -201,7 +201,7 @@ console.log(updatedPart);
 // - 10. fetch() Usage: Deleting Resource
 
 async function deletePost(postId) {
-    console.log("Update Views...");
+    console.log("Deleting Post...");
     const API_URL = `http://localhost:3000/posts/${postId}`;
     try {
         const response = await fetch(API_URL, {
