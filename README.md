@@ -58,3 +58,4 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 22: Asynchronous JavaScript - Callback`** - [Watch Video](https://youtu.be/EtoHtZ8mdWA) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-22/README.md)
 - **`Day 23: JavaScript Promises: Zero to Hero`** - [Watch Video](https://youtu.be/R52MdtIW3rs) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-23/README.md)
 - **`Day 24: Master JavaScript async/await & Simplify Promises Like a PRO`** - [Watch Video](https://youtu.be/WQdCffdPPKI) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-24/README.md)
+- **`Day 25: JavaScript fetch() Explained Like Never Before`** - [Watch Video](https://www.youtube.com/watch?v=G3oPZSvrO9w) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-25/README.md)

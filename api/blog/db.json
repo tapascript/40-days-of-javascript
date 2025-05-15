@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "title": "What is 40 Days of JavaScript?",
+      "views": 160,
+      "id": "a9057951-515e-3da2-9793-af29719d0e33"
+    },
+    {
+      "id": "a9057951-215e-4da2-9793-af29719d0e33",
+      "title": "How to Split a String?",
+      "views": 201
+    },
+    {
+      "id": "4b9d7b5c-4a6d-4149-988e-7536ed90a518",
+      "title": "How to use fetch() API for POST?",
+      "views": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "Great Post",
+      "postId": "a9057951-515e-3da2-9793-af29719d0e33"
+    },
+    {
+      "id": "2",
+      "text": "Learned something new",
+      "postId": "a9057951-515e-3da2-9793-af29719d0e33"
+    }
+  ],
+  "profile": {
+    "name": "tapaScript"
+  }
+}

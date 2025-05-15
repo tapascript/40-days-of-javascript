@@ -1,7 +1,7 @@
 {
-  "name": "pizzahub",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "The pizzahub API Services used in the tutorials",
+  "description": "The Blog API Services used in the tutorials",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
