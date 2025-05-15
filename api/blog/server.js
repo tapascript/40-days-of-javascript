@@ -9,7 +9,6 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-// ✅ POST /login → create a new order
 server.post("/login", (req, res) => {
     console.log("Headers:", req.headers);
     console.log("Body:", req.body);
