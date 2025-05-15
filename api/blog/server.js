@@ -9,7 +9,7 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-// ✅ POST /api/order → create a new order
+// ✅ POST /login → create a new order
 server.post("/login", (req, res) => {
     console.log("Headers:", req.headers);
     console.log("Body:", req.body);
