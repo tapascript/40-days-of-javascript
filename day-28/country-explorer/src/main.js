@@ -1,21 +1,25 @@
+console.log("Country Explorer");
+
 const searchBtn = document.getElementById("searchBtn");
 const searchInput = document.getElementById("searchInput");
-const regionFilter = document.getElementById("regionFilter");
 const loader = document.getElementById("loader");
 const error = document.getElementById("error");
 const countryDetails = document.getElementById("countryDetails");
-const mapDiv = document.getElementById("map");
+
 let map;
 
-searchBtn.addEventListener("click", () => {
+searchBtn.addEventListener("click", async () => {
     const country = searchInput.value.trim();
+
     if (!country) return;
-    fetchCountry(country);
+
+    await fetchCountry(country);
 });
 
 async function fetchCountry(name) {
     loader.classList.remove("hidden");
     error.classList.add("hidden");
+
     countryDetails.innerHTML = "";
 
     try {
@@ -23,80 +27,66 @@ async function fetchCountry(name) {
             `https://restcountries.com/v3.1/name/${name}?fullText=true`
         );
         const data = await response.json();
+
         const country = data[0];
 
         if (!country) {
-            throw new Error("Invalid Country Name or Not Matching in DB");
+            throw new Error(`Invalid Country Name`);
         }
         const languages = country.languages
-            ? Object.values(country.languages).join(", ")
+            ? Object.values(country.languages).join(",")
             : "N/A";
 
         countryDetails.innerHTML = `
-          <div class="p-4 border rounded shadow">
-            <img src="${country.flags.svg}" alt="Flag" class="w-32 mb-2">
-            <h2 class="text-xl font-bold">${country.name.common}</h2>
-            <p><strong>Capital:</strong> ${country.capital}</p>
-            <p><strong>Population:</strong> ${country.population.toLocaleString()}</p>
-            <p><strong>Languages:</strong> ${languages}</p>
-            <div class="mb-4">
-                <h2 class="text-xl font-semibold mb-2">Local Timezones</h2>
-                <ul id="timezoneList" class="list-disc ml-6"></ul>
+            <div class="p-4 border rounded shadow">
+                <img src="${country.flags.svg}" alt="flag" class="w-32 mb-2" />
+                <h2 class="text-xl font-bold">${country.name.common}</h2>
+                <p><strong>Capital:</strong> ${country.capital}</p>
+                <p><strong>Population:</strong> ${country.population.toLocaleString()}</p>
+                <p><strong>Languages:</strong> ${languages}</p>
+                <div class="mb-4">
+                    <h2 class="text-xl font-semibold mb-2">Local Times</h2>
+                    <ul id="timezoneList" class="list-disc ml-6"></ul>
+                </div>
             </div>
-            <button onclick="saveFavorite('${
-                country.name.common
-            }')" class="mt-2 bg-green-500 text-white px-4 py-2 rounded">Save Favorite</button>
-          </div>`;
+        `;
 
         updateTimezones(country.timezones);
-
-        drawMap(country.latlng);
+        drawMap(country.latlng, country.name.common);
     } catch (err) {
         error.classList.remove("hidden");
-        error.textContent = err.message || "Failed to load country data";
+        error.textContent =
+            err.message || "Failed to load the country information";
+        console.error(err);
     } finally {
         loader.classList.add("hidden");
     }
 }
 
-async function fetchByCode(code) {
-    const res = await fetch(`https://restcountries.com/v3.1/alpha/${code}`);
-    const data = await res.json();
-    fetchCountry(data[0].name.common);
-}
-
-function saveFavorite(name) {
-    let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-    if (!favorites.includes(name)) {
-        favorites.push(name);
-        localStorage.setItem("favorites", JSON.stringify(favorites));
-        alert(`${name} saved to favorites!`);
-    }
-}
-
 function updateTimezones(timezones) {
     const timezoneList = document.getElementById("timezoneList");
-    timezoneList.innerHTML = ""; // Clear previous results
+    timezoneList.innerHTML = "";
 
     timezones.forEach((tz) => {
         const li = document.createElement("li");
         const localTime = getTimeUsingIntl(tz);
-        li.textContent = `${tz} → ${localTime}`;
+
+        li.textContent = `${tz} - ${localTime}`;
         timezoneList.appendChild(li);
     });
 }
 
-function getTimeUsingIntl(timezone) {
+function getTimeUsingIntl(tz) {
     try {
         const options = {
-            timeZone: convertToIANA(timezone),
+            timeZone: convertToIANA(tz),
             hour: "2-digit",
             minute: "2-digit",
             hour12: true,
         };
-        return new Intl.DateTimeFormat("en-US", options).format(new Date());
+        return Intl.DateTimeFormat("en-US", options).format(new Date());
     } catch (err) {
-        console.warn(`Timezone ${timezone} not supported, falling back.`);
+        console.warn(`Timezone ${tz} not supported, falling back.`);
         return "Unsupported timezone";
     }
 }
@@ -117,8 +107,9 @@ function convertToIANA(utcString) {
     return "Etc/UTC"; // fallback
 }
 
-function drawMap(latLang) {
-    const [lat, lng] = latLang;
+function drawMap(latlang, name) {
+    const [lat, lng] = latlang;
+
     if (!map) {
         map = L.map("map").setView([lat, lng], 5);
         L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(
@@ -126,9 +117,7 @@ function drawMap(latLang) {
         );
     } else {
         map.setView([lat, lng], 5);
-        L.marker([lat, lng])
-            .addTo(map)
-            .bindPopup(country.name.common)
-            .openPopup();
     }
+
+    L.marker([lat, lng]).addTo(map).bindPopup(name).openPopup();
 }

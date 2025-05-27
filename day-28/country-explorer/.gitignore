@@ -1,5 +1,5 @@
-node_modules
+/node_modules
 .git
 package-lock.json
 yarn.lock
-pages/output.css
+dist
