@@ -65,4 +65,4 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 ### Module 5 - Object Oriented Programming(OOP) in JavaScript
 
-TBA
+- **`Day 29: Object Oriented Programming (OOP) Explained with Real-Life Analogies 🤩`** - [Watch Video](https://www.youtube.com/watch?v=oRQOiyO-kHg) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-29/README.md)
