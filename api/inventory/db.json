@@ -26,6 +26,15 @@
       "sold": 25,
       "price": 3.49,
       "lastUpdated": "2025-05-21"
+    },
+    {
+      "id": "1b9d",
+      "name": "Car",
+      "category": "Vchl",
+      "stock": 40,
+      "sold": 15,
+      "price": 2345799.99,
+      "lastUpdated": "2025-05-29"
     }
   ]
 }
