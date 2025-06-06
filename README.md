@@ -61,8 +61,9 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 25: JavaScript fetch() Explained Like Never Before`** - [Watch Video](https://www.youtube.com/watch?v=G3oPZSvrO9w) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-25/README.md)
 - **`Day 26: 6 Common Mistakes with JavaScript Promises & Async Code`** - [Watch Video](https://youtu.be/c_zcXUz1neo) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-26/README.md)
 - **`Day 27: How Your Async Code Works | JavaScript Event Loop Simplified!`** - [Watch Video](https://youtu.be/4IYcwOfW3BM) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-27/README.md)
-- **`Day 28: Build a Country App with Asynchronous JavaScript & TailwindCSS 🤩`** - [Watch Video](https://www.youtube.com/watch?v=jXS0VURNqxA) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-28/README.md)
+- **`Day 28: Build a Country App with Asynchronous JavaScript & TailwindCSS`** - [Watch Video](https://www.youtube.com/watch?v=jXS0VURNqxA) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-28/README.md)
 
 ### Module 5 - Object Oriented Programming(OOP) in JavaScript
 
-- **`Day 29: Object Oriented Programming (OOP) Explained with Real-Life Analogies 🤩`** - [Watch Video](https://www.youtube.com/watch?v=oRQOiyO-kHg) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-29/README.md)
+- **`Day 29: Object Oriented Programming (OOP) Explained with Real-Life Analogies`** - [Watch Video](https://www.youtube.com/watch?v=oRQOiyO-kHg) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-29/README.md)
+- **`Day 30: From Zero to OOP Hero with JavaScript ES6 Classes`** - [Watch Video](https://youtu.be/kG5t34ciG9w) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-30/README.md)

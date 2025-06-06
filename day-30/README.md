@@ -1,20 +1,24 @@
-# Day 29 - 40 Days of JavaScript - OOP Concepts
+# Day 30 - 40 Days of JavaScript - Classes and OOP
 
 ## **🎯 Goal of This Lesson**
 
-- ✅ Welcome to Module 5
-- ✅ Things to Learn Today
-- ✅ Objects
-- ✅ Classes
-- ✅ Functions
-- ✅ Object Oriented Programming(OOP)
-- ✅ Real-world Examples of OOP
-  - ✅ Abstraction
-  - ✅ Encapsulation
-  - ✅ Inheritance
-  - ✅ Polymorphism
-  - ✅ Composition
-- ✅ Quick Recap
+- ✅ Intro
+- ✅ What Will We Learn?
+- ✅ What is a Class?
+- ✅ ES6 Classes - Syntax
+- ✅ Initialize Objects 09:40 - “this” in Classes
+- ✅ The Type of Class
+- ✅ Class as Expression 19:08 - Class Fields
+- ✅ Getters and Setters
+- ✅ Static Properties
+- ✅ Private and Public Fields
+- ✅ Extending Class
+- ✅ Abstraction
+- ✅ Encapsulation
+- ✅ Inheritance
+- ✅ Polymorphism
+- ✅ Composition
+- ✅ What’s Next?
 
 ## 🫶 Support
 
@@ -33,7 +37,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 Here is the video for you to go through and learn:
 
-[![day-29](./banner.png)](https://www.youtube.com/watch?v=oRQOiyO-kHg "Video")
+[![day-30](./banner.png)](https://youtu.be/kG5t34ciG9w "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 
