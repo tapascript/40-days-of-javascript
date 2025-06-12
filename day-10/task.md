@@ -93,6 +93,7 @@ function outer() {
 
 outer();
 ```
+
 ## 10. What will be the output and why?
 ```js
 function counter() {
