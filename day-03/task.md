@@ -1,7 +1,7 @@
 # Tasks
 Please complete the following tasks and post them on the tapaScript Discord under "40 Days of JavaScript".
 
-> Please note that none of the answers need you to create any UI. Just focus on the logic building and print the output on the browser console.
+> **DO NOT USE AI to FIND ANSWERS**. If you are stuck, let's discuss it on DISCORD and learn. Also, please note that none of the answers need you to create any UI. Just focus on the logic building and print the output on the browser console.
 
 ## 1. Odd or Even?
  - [ ] Take a number and find if the number is an odd or even number.
@@ -45,7 +45,7 @@ Find the max number from the lot.
 - [ ] Take three numbers and assign them to variables p, q, and r.
 - [ ] Now find the maximum of these three numbers using the comparison operators.
 
-## 8. Biwise Doubling
+## 8. Bitwise Doubling
 A tricky one for you
 
 - [ ] Create a variable `count` and assign  a value, say, 5.

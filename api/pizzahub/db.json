@@ -1,0 +1,48 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "shopId": "Dominos",
+      "name": "Pepperoni",
+      "type": "veg",
+      "price": 12,
+      "unit": "usd"
+    },
+    {
+      "id": 2,
+      "shopId": "PizzaHut",
+      "name": "Margherita",
+      "type": "veg",
+      "price": 10,
+      "unit": "usd"
+    },
+    {
+      "id": 3,
+      "shopId": "Dominos",
+      "name": "Cheese Burst",
+      "type": "non-veg",
+      "price": 22,
+      "unit": "usd"
+    }
+  ],
+  "beverages": [
+    {
+      "id": 1,
+      "pizzaId": 1,
+      "name": "Coke",
+      "price": "10",
+      "unit": "usd"
+    },
+    {
+      "id": 2,
+      "pizzaId": 2,
+      "name": "Pepsi",
+      "price": "11",
+      "unit": "usd"
+    }
+  ],
+  "shops": {
+    "Dominos": false,
+    "PizzaHut": true
+  }
+}

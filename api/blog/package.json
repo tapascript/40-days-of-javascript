@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "The Blog API Services used in the tutorials",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapascript/40-days-of-javascript.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Tapas Adhikary | tapaScript",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tapascript/40-days-of-javascript/issues"
+  },
+  "homepage": "https://github.com/tapascript/40-days-of-javascript#readme",
+  "dependencies": {
+    "json-server": "0.17.3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "js-base-setup",
+  "version": "1.0.0",
+  "description": "javascript setup",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \"serve pages -p 3000\" \"npx @tailwindcss/cli -i ./pages/input.css -o ./pages/output.css --watch\"",
+    "build": "npx @tailwindcss/cli -i ./pages/input.css -o ./pages/output.css"
+  },
+  "keywords": [
+    "javascript",
+    "base"
+  ],
+  "author": "tapaScript | learn@tapascript.io",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "serve": "^14.2.4"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.2",
+    "tailwindcss": "^4.1.2"
+  }
+}

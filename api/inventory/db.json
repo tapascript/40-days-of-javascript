@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "category": "Electronics",
+      "stock": 4,
+      "sold": 15,
+      "price": 799.99,
+      "lastUpdated": "2025-05-23"
+    },
+    {
+      "id": "2",
+      "name": "Desk Chair",
+      "category": "Furniture",
+      "stock": 7,
+      "sold": 10,
+      "price": 129.99,
+      "lastUpdated": "2025-05-22"
+    },
+    {
+      "id": "3",
+      "name": "Notebook",
+      "category": "Stationery",
+      "stock": 15,
+      "sold": 25,
+      "price": 3.49,
+      "lastUpdated": "2025-05-21"
+    },
+    {
+      "id": "1b9d",
+      "name": "Car",
+      "category": "Vchl",
+      "stock": 40,
+      "sold": 15,
+      "price": 2345799.99,
+      "lastUpdated": "2025-05-29"
+    }
+  ]
+}
