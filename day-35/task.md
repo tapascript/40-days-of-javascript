@@ -62,7 +62,7 @@ updateConfig({ version: "2.0" });
 - Error: Assignment to constant variable.
 - Goal: Fix the error without changing const to let, and apply a clean way to update nested configs.
 
-## 3. Promise Chain Gone Wrong
+## 4. Promise Chain Gone Wrong
 
 ```js
 function fetchData() {
