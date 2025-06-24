@@ -1,13 +1,13 @@
 # 40-days-of-javascript
 
-Learn 40 days of JavaScript on [tapaScript](https://youtube.com/tapasadhikary). It is to take you from the Beginner to an Expert JavaScript developer with al fundamentals and projects.
+Learn 40 days of JavaScript on [tapaScript](https://youtube.com/tapasadhikary). It is to take you from the Beginner to an Expert JavaScript developer with all fundamentals and projects.
 
 ## 🫶 Support
 
 Your support means a lot.
 
 - Please SUBSCRIBE to [tapaScript YouTube Channel](https://youtube.com/tapasadhikary) if not done already. A Big Thank You!
-- Liked my work? It takes months of hard work to create quality content and present it to you. You can show your support to me with a STAR(⭐) to this repository.
+- Liked my work? It takes months of hard work to create quality content and present it to you. You can show your support for me with a STAR(⭐) to this repository.
 
     > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
     [![Stargazers repo roster for tapascript/40-days-of-javascript](https://reporoster.com/stars/tapascript/40-days-of-javascript)](https://github.com/atapas/tapascript/40-days-of-javascript)
@@ -20,7 +20,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 - Join Discord Server to Collaborate and Learn: [https://discord.gg/ux9BchWEW3](https://discord.gg/ux9BchWEW3)
 
-## Table of Content
+## Table of Contents
 
 ### Module 1 - Getting Started with JavaScript
 
