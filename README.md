@@ -71,3 +71,8 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`Day 32: Master JavaScript Modules: import, export, and Organize Like a Pro!`** - [Watch Video](https://youtu.be/l50gnBWHmdA) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-32/README.md)
 - **`Day 33: Data Colection in JavaScript - Map, Set, WeakMap, and WeakSet!`** - [Watch Video](https://youtu.be/kzuvppEWm88) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-33/README.md)
 - **`Day 34: Build a Full Library App in JavaScript – OOP, ES6 Modules & Tailwind CSS`** - [Watch Video](https://youtu.be/DXO8tiGH18Y) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-34/README.md)
+- **`Day 35 of 40 Days of JavaScript is here, and it’s time to LEVEL UP your debugging skills!`** - [Watch Video](https://youtu.be/wjM89QIL5As) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-35/README.md)
+
+### Module 6 - Going Beyond
+
+TBA
