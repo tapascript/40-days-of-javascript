@@ -76,3 +76,5 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ### Module 6 - Going Beyond
 
 - **`Day 36: Master JavaScript Performance with Debouncing, Throttling, and Memoization`** - [Watch Video](https://youtu.be/RnQPMARiq18) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-36/README.md)
+
+- **`Day 37: JavaScript Web APIs With Examples and an Open Source Project`** - [Watch Video](https://youtu.be/Ffpd8RkEXlY) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-37/README.md)
