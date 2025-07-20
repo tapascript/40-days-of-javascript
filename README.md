@@ -11,16 +11,16 @@ Your support means a lot.
 
     > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
     [![Stargazers repo roster for tapascript/40-days-of-javascript](https://reporoster.com/stars/tapascript/40-days-of-javascript)](https://github.com/atapas/tapascript/40-days-of-javascript)
-    
+
 ### 🤝 Sponsor My Work
 
 I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Cofee](https://buymeacoffee.com/tapasadhikary)**.
 
 ### 📊 Star History
-You, all my `Stargazers`, are making it work. This is because of you. A BIG THANK YOU to all of you ❤️.
-    
-[![Star History Chart](https://api.star-history.com/svg?repos=tapascript/40-days-of-javascript&type=Date)](https://www.star-history.com/#tapascript/40-days-of-javascript&Date)    
 
+You, all my `Stargazers`, are making it work. This is because of you. A BIG THANK YOU to all of you ❤️.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=tapascript/40-days-of-javascript&type=Date)](https://www.star-history.com/#tapascript/40-days-of-javascript&Date)
 
 ## 🥇 Join the Discord Server
 
@@ -84,3 +84,5 @@ You, all my `Stargazers`, are making it work. This is because of you. A BIG THAN
 - **`Day 36: Master JavaScript Performance with Debouncing, Throttling, and Memoization`** - [Watch Video](https://youtu.be/RnQPMARiq18) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-36/README.md)
 
 - **`Day 37: JavaScript Web APIs With Examples and an Open Source Project`** - [Watch Video](https://youtu.be/Ffpd8RkEXlY) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-37/README.md)
+
+- **`Day 38: JavaScript Memory Management & Garbage Collection`** - [Watch Video](https://youtu.be/w-ZCIbEU-0A) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-38/README.md)
