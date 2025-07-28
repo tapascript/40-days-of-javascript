@@ -86,3 +86,5 @@ You, all my `Stargazers`, are making it work. This is because of you. A BIG THAN
 - **`Day 37: JavaScript Web APIs With Examples and an Open Source Project`** - [Watch Video](https://youtu.be/Ffpd8RkEXlY) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-37/README.md)
 
 - **`Day 38: JavaScript Memory Management & Garbage Collection`** - [Watch Video](https://youtu.be/w-ZCIbEU-0A) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-38/README.md)
+
+- **`Day 39: JavaScript Interview Preparation Guide (By a 20-Year Industry Veteran)`** - [Watch Video](https://youtu.be/aCJUoYWwAj8) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-39/README.md)
