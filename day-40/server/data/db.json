@@ -1,0 +1,14 @@
+{
+  "users": [
+    { "id": "u1", "name": "Alice" },
+    { "id": "u2", "name": "Bob" }
+  ],
+  "expenses": [
+    {
+      "amount": 200,
+      "paidBy": "u1",
+      "sharedWith": ["u1", "u2"],
+      "date": "2025-07-28T10:00:00Z"
+    }
+  ]
+}

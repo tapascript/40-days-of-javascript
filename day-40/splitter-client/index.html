@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💸 Splitter</title>
+    <link href="/src/index.css" rel="stylesheet" />
+    <script defer type="module" src="/src/main.js"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+  <div class="container mx-auto p-4">
+    <h1 class="text-3xl font-bold mb-4">Splitter</h1>
+    <div class="space-y-4">
+      <div>
+        <input type="text" id="userInput" placeholder="Enter name" class="border p-2 rounded w-4/5" />
+        <button id="addUserBtn" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded">Add User</button>
+      </div>
+      <div>
+        <input type="text" id="expenseUserInput" placeholder="e.g. Alice" class="border p-2 rounded w-1/5" />
+        Paid
+        <input type="number" id="expenseAmountInput" placeholder="e.g. 100" class="border p-2 rounded w-1/5" />
+        for
+        <input type="text" id="expenseReasonInput" placeholder="e.g. Ice Cream" class="border p-2 rounded w-1/5" />
+        <button id="addExpenseBtn" class="mt-2 bg-green-500 text-white px-4 py-2 rounded">Add Expense</button>
+      </div>
+      <ul id="payment-list"></ul>
+      <div>
+        <button id="simplifyBtn" class="bg-purple-500 text-white px-4 py-2 rounded">Simplify Debts</button>
+      </div>
+      <div class="mt-4">
+        <textarea id="resultArea" class="border p-2 w-full h-40 rounded" readonly></textarea>
+      </div>
+      <div>
+        <input type="file" id="importFile" />
+        <button id="exportBtn" class="bg-yellow-500 text-white px-4 py-2 rounded mt-2">Export JSON</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
