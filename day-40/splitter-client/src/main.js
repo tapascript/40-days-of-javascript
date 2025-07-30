@@ -16,27 +16,36 @@ class Expense {
 const users = new Map();
 const expenses = [];
 
-document.getElementById("addUserBtn").addEventListener("click", () => {
+document.getElementById("addUserForm").addEventListener("submit", (e) => {
+    e.preventDefault();
     const name = document.getElementById("userInput").value.trim();
     if (name && !users.has(name)) {
         users.set(name, new User(name));
-        alert(`User ${name} added`);
+        console.log(`User ${name} added`);
+        const userSelectBox = document.getElementById("expenseUserInput");
+        const newOption = new Option(name, name);
+        userSelectBox.add(newOption, undefined);
     }
+
+    document.getElementById("addUserForm").reset();
 });
 
-document.getElementById("addExpenseBtn").addEventListener("click", () => {
+document.getElementById("addExpenseForm").addEventListener("submit", (e) => {
+    e.preventDefault();
     const paidBy = document.getElementById("expenseUserInput").value.trim();
     const amount = document.getElementById("expenseAmountInput").valueAsNumber;
 
-    //const [paidBy, amount] = input.split(" paid ");
     if (paidBy && amount) {
         const desc = document.getElementById("expenseReasonInput").value.trim();
         console.log(paidBy, amount, desc);
         expenses.push(new Expense(paidBy, amount, desc || "No description"));
-        alert(`Expense added by ${paidBy}`);
+        console.log(`Expense added by ${paidBy}`);
 
         renderExpenses(paidBy, amount, desc);
     }
+
+    document.getElementById("expenseAmountInput").value = 0;
+    document.getElementById("expenseReasonInput").value = "";
 });
 
 document.getElementById("simplifyBtn").addEventListener("click", () => {
@@ -71,7 +80,7 @@ document.getElementById("importFile").addEventListener("change", (e) => {
                 (e) => new Expense(e.paidBy, e.amount, e.description)
             )
         );
-        alert("Data imported!");
+        console.log("Data imported!");
     };
     reader.readAsText(file);
 });
@@ -108,7 +117,11 @@ function simplifyExpenses() {
 }
 
 function renderExpenses(user, amount, reason) {
+    const renderExpenses = document.getElementById("renderExpenses");
     const paymentList = document.getElementById("payment-list");
+
+    renderExpenses.classList.remove("hidden");
+    renderExpenses.classList.add("flex");
 
     const paymentElem = document.createElement("LI");
     paymentElem.textContent = `${user} paid ${amount} INR for ${reason}`;
