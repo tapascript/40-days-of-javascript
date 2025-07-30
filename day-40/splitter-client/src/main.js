@@ -11,7 +11,7 @@ document.getElementById("addUserForm").addEventListener("submit", (e) => {
 
     if (!name) {
         showErrorToast("User name is mandatory");
-        returnl;
+        return;
     }
 
     users.set(name, new User(name));
