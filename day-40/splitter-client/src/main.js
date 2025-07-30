@@ -1,18 +1,6 @@
 import { showSuccessToast, showErrorToast } from "./toast-util";
-class User {
-    constructor(name) {
-        this.name = name;
-        this.balance = 0;
-    }
-}
-
-class Expense {
-    constructor(paidBy, amount, description) {
-        this.paidBy = paidBy;
-        this.amount = amount;
-        this.description = description;
-    }
-}
+import { User } from "./models/user";
+import { Expense } from "./models/expense";
 
 const users = new Map();
 const expenses = [];
@@ -61,10 +49,6 @@ document.getElementById("simplifyBtn").addEventListener("click", () => {
     const result = simplifyExpenses();
     const resultArea = document.getElementById("resultArea");
     resultArea.value = result.join("\n");
-
-    if ("Notification" in window && Notification.permission === "granted") {
-        result.forEach((msg) => new Notification(msg));
-    }
 });
 
 document.getElementById("exportBtn").addEventListener("click", () => {
@@ -133,12 +117,9 @@ function renderExpenses(user, amount, reason) {
     renderExpenses.classList.add("flex");
 
     const paymentElem = document.createElement("LI");
-    paymentElem.textContent = reason ? `${user} paid ${amount} INR for ${reason}` : `${user} paid ${amount} INR`;
+    paymentElem.textContent = reason
+        ? `${user} paid ${amount} INR for ${reason}`
+        : `${user} paid ${amount} INR`;
 
     paymentList.appendChild(paymentElem);
-}
-
-// Ask for notification permission
-if ("Notification" in window && Notification.permission !== "granted") {
-    Notification.requestPermission();
 }
