@@ -8,13 +8,17 @@ const expenses = [];
 document.getElementById("addUserForm").addEventListener("submit", (e) => {
     e.preventDefault();
     const name = document.getElementById("userInput").value.trim();
-    if (name && !users.has(name)) {
-        users.set(name, new User(name));
-        console.log(`User ${name} added`);
-        const userSelectBox = document.getElementById("expenseUserInput");
-        const newOption = new Option(name, name);
-        userSelectBox.add(newOption, undefined);
+
+    if (!name) {
+        showErrorToast("User name is mandatory");
+        returnl;
     }
+
+    users.set(name, new User(name));
+    console.log(`User ${name} added`);
+    const userSelectBox = document.getElementById("expenseUserInput");
+    const newOption = new Option(name, name);
+    userSelectBox.add(newOption, undefined);
 
     document.getElementById("addUserForm").reset();
 });
@@ -46,9 +50,17 @@ document.getElementById("addExpenseForm").addEventListener("submit", (e) => {
 });
 
 document.getElementById("simplifyBtn").addEventListener("click", () => {
-    const result = simplifyExpenses();
+    const results = simplifyExpenses();
     const resultArea = document.getElementById("resultArea");
-    resultArea.value = result.join("\n");
+
+    const fragment = document.createDocumentFragment();
+    results.forEach((result) => {
+        const li = document.createElement("LI");
+        li.textContent = result;
+        fragment.appendChild(li);
+    });
+
+    resultArea.appendChild(fragment);
 });
 
 document.getElementById("exportBtn").addEventListener("click", () => {
@@ -112,9 +124,6 @@ function simplifyExpenses() {
 function renderExpenses(user, amount, reason) {
     const renderExpenses = document.getElementById("renderExpenses");
     const paymentList = document.getElementById("payment-list");
-
-    renderExpenses.classList.remove("hidden");
-    renderExpenses.classList.add("flex");
 
     const paymentElem = document.createElement("LI");
     paymentElem.textContent = reason
