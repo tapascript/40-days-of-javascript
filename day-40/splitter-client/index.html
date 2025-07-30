@@ -11,65 +11,188 @@
   <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </head>
 
-<body class="bg-gray-100 text-gray-900">
-  <div class="container mx-auto p-4">
+<body class="min-h-screen gradient-bg">
+  <div class="container mx-auto p-4 md:p-6 lg:p-8 max-w-7xl">
     <!-- Header -->
-    <header class="flex justify-between mb-8">
-      <h1 class="text-5xl font-bold mb-4">Splitter</h1>
-      <nav class="mr-4">
-        <ul>
-          <li>
-            <input type="file" id="importFile" class="hidden" />
-            <button id="exportBtn" class="bg-yellow-500 text-white px-4 py-2 rounded">Export</button>
-          </li>
-        </ul>
+    <header class="flex flex-col md:flex-row justify-between items-center mb-12 animate-fade-in">
+      <div class="text-center md:text-left mb-6 md:mb-0">
+        <h1 class="text-6xl md:text-7xl font-bold text-white mb-2 tracking-tight">
+          <span class="inline-block animate-bounce">💸</span> Splitter
+        </h1>
+        <p class="text-xl text-purple-100 font-light">Split expenses with friends effortlessly</p>
+      </div>
+      <nav class="flex gap-3">
+        <input type="file" id="importFile" class="hidden" accept=".json" />
+        <button id="exportBtn" class="btn-hover bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-xl font-semibold shadow-lg">
+          <span class="flex items-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            Export
+          </span>
+        </button>
       </nav>
     </header>
 
-
-    <div class="flex flex-col space-y-8">
-
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
       <!-- Add User Form -->
-      <form id="addUserForm" class="bg-white p-2 rounded shadow h-min">
-        <h2 class="text-2xl p-2 font-semibold">Add Users</h2>
-        <div class="flex justify-center items-center gap-1 p-2">
-          <input type="text" id="userInput" placeholder="Enter name" class="border p-2 rounded w-4/5" />
-          <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Add User</button>
-        </div>
-      </form>
+      <div class="animate-fade-in">
+        <form id="addUserForm" class="glass-effect p-8 rounded-2xl card-shadow">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5 0a4 4 0 11-8-4.05"/>
+              </svg>
+            </div>
+            <h2 class="text-3xl font-bold text-gray-800">Add Users</h2>
+          </div>
+
+          <div class="space-y-4">
+            <div class="floating-label">
+              <input
+                type="text"
+                id="userInput"
+                placeholder=" "
+                class="input-focus w-full border-2 border-gray-200 focus:border-blue-500 p-4 rounded-xl text-lg outline-none"
+              />
+              <label>Enter user name</label>
+            </div>
+            <button
+              type="submit"
+              class="btn-hover w-full bg-blue-500 hover:bg-blue-600 text-white px-6 py-4 rounded-xl font-semibold text-lg shadow-lg"
+            >
+              <span class="flex items-center justify-center gap-2">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                </svg>
+                Add User
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
 
       <!-- Add Expense Form -->
-      <form id="addExpenseForm" class="bg-white p-2 rounded shadow h-min">
-        <h2 class="text-2xl p-2 font-semibold">Add Expenses</h2>
-        <div class="flex justify-center items-center gap-1 p-2">
-          <select id="expenseUserInput" class="border p-2 rounded w-1/5"></select>
-          Paid
-          <input type="number" id="expenseAmountInput" placeholder="e.g. 100" class="border p-2 rounded w-1/5" />
-          for
-          <input type="text" id="expenseReasonInput" placeholder="e.g. Ice Cream" class="border p-2 rounded w-1/5" />
-          <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded">Add Expense</button>
-        </div>
-      </form>
-
-      <!-- Render Expenses -->
-      <div id="renderExpenses" class="bg-white p-2 rounded shadow h-min">
-        <h2 class="text-2xl p-2 font-semibold">Simplify Expenses</h2>
-        <div class="flex justify-center items-center gap-1 p-2">
-          <!-- Show All Payments -->
-          <div class="border p-2 w-[40%] h-40 rounded">
-            <ul id="payment-list" class="text-xl"></ul>
+      <div class="animate-fade-in">
+        <form id="addExpenseForm" class="glass-effect p-8 rounded-2xl card-shadow">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+              </svg>
+            </div>
+            <h2 class="text-3xl font-bold text-gray-800">Add Expenses</h2>
           </div>
-          <!-- Split Payments -->
-          <div class="flex justify-center items-center">
-            <button id="simplifyBtn" class="bg-purple-500 text-white px-4 py-2 rounded">Split It</button>
-          </div>
-          <!-- Show Splitted Payments -->
-          <ul id="resultArea" class="border p-2 w-[40%] h-40 rounded text-xl">
-          </ul>
-        </div>
 
+          <div class="space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mobile-responsive">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Who Paid?</label>
+                <select
+                  id="expenseUserInput"
+                  class="input-focus w-full border-2 border-gray-200 focus:border-green-500 p-4 rounded-xl text-lg outline-none bg-white"
+                >
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Amount (₹)</label>
+                <input
+                  type="number"
+                  id="expenseAmountInput"
+                  placeholder="e.g. 100"
+                  class="input-focus w-full border-2 border-gray-200 focus:border-green-500 p-4 rounded-xl text-lg outline-none"
+                  min="0"
+                  step="0.01"
+                />
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Description</label>
+                <input
+                  type="text"
+                  id="expenseReasonInput"
+                  placeholder="e.g. Ice Cream"
+                  class="input-focus w-full border-2 border-gray-200 focus:border-green-500 p-4 rounded-xl text-lg outline-none"
+                />
+              </div>
+            </div>
+
+            <button
+              type="submit"
+              class="btn-hover w-full bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-xl font-semibold text-lg shadow-lg"
+            >
+              <span class="flex items-center justify-center gap-2">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                </svg>
+                Add Expense
+              </span>
+            </button>
+          </div>
+        </form>
       </div>
     </div>
+
+    <!-- Expenses Overview -->
+    <div id="renderExpenses" class="glass-effect p-8 rounded-2xl card-shadow animate-fade-in">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+          </svg>
+        </div>
+        <h2 class="text-3xl font-bold text-gray-800">Expense Overview</h2>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- All Payments -->
+        <div class="lg:col-span-1">
+          <h3 class="text-xl font-semibold text-gray-700 mb-4 flex items-center gap-2">
+            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+            </svg>
+            All Payments
+          </h3>
+          <div class="bg-gray-50 border-2 border-gray-200 p-4 rounded-xl h-80 overflow-y-auto scroll-area">
+            <ul id="payment-list" class="space-y-2"></ul>
+          </div>
+        </div>
+
+        <!-- Split Button -->
+        <div class="lg:col-span-1 flex items-center justify-center">
+          <button
+            id="simplifyBtn"
+            class="btn-hover pulse-glow bg-purple-500 hover:bg-purple-600 text-white px-8 py-6 rounded-2xl font-bold text-xl shadow-2xl"
+          >
+            <span class="flex flex-col items-center gap-2">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+              </svg>
+              Split It!
+            </span>
+          </button>
+        </div>
+
+        <!-- Settlements -->
+        <div class="lg:col-span-1">
+          <h3 class="text-xl font-semibold text-gray-700 mb-4 flex items-center gap-2">
+            <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+            </svg>
+            Who Owes Whom
+          </h3>
+          <div class="bg-gradient-to-br from-amber-50 to-yellow-50 border-2 border-amber-200 p-4 rounded-xl h-80 overflow-y-auto scroll-area">
+            <ul id="resultArea" class="space-y-2"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-12 text-purple-100">
+      <p class="text-lg font-light">Made with ❤️ for splitting expenses fairly</p>
+    </footer>
   </div>
 </body>
 
