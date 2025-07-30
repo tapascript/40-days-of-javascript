@@ -1,3 +1,4 @@
+import { showSuccessToast, showErrorToast } from "./toast-util";
 class User {
     constructor(name) {
         this.name = name;
@@ -35,14 +36,22 @@ document.getElementById("addExpenseForm").addEventListener("submit", (e) => {
     const paidBy = document.getElementById("expenseUserInput").value.trim();
     const amount = document.getElementById("expenseAmountInput").valueAsNumber;
 
-    if (paidBy && amount) {
-        const desc = document.getElementById("expenseReasonInput").value.trim();
-        console.log(paidBy, amount, desc);
-        expenses.push(new Expense(paidBy, amount, desc || "No description"));
-        console.log(`Expense added by ${paidBy}`);
-
-        renderExpenses(paidBy, amount, desc);
+    if (!paidBy) {
+        showErrorToast("Please select a User");
+        return;
     }
+
+    if (!amount) {
+        showErrorToast("Please enter an amount more than zero.");
+        return;
+    }
+
+    const desc = document.getElementById("expenseReasonInput").value.trim();
+    expenses.push(new Expense(paidBy, amount, desc || "No description"));
+    console.log(`Expense added by ${paidBy}`);
+    showSuccessToast(`Expense added by ${paidBy}`);
+
+    renderExpenses(paidBy, amount, desc);
 
     document.getElementById("expenseAmountInput").value = 0;
     document.getElementById("expenseReasonInput").value = "";
@@ -124,7 +133,7 @@ function renderExpenses(user, amount, reason) {
     renderExpenses.classList.add("flex");
 
     const paymentElem = document.createElement("LI");
-    paymentElem.textContent = `${user} paid ${amount} INR for ${reason}`;
+    paymentElem.textContent = reason ? `${user} paid ${amount} INR for ${reason}` : `${user} paid ${amount} INR`;
 
     paymentList.appendChild(paymentElem);
 }
