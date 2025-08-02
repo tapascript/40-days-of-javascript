@@ -24,7 +24,7 @@ For Example: If N = 3, output should be:
 3 x 10 = 30
 ```
 
-## 3. Find the summation of all odd numbers between 1 to 500 and print them on teh console log.
+## 3. Find the summation of all odd numbers between 1 to 500 and print them on the console log.
 
 ## 4. Skipping Multiples of 3
 Write a program to print numbers from 1 to 20, but skip multiples of 3.
