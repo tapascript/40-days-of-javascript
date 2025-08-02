@@ -8,7 +8,7 @@ export class User {
     }
 
     generateId() {
-        return `user_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+        return crypto.randomUUID();
     }
 
     toJSON() {
