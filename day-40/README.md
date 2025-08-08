@@ -49,7 +49,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 Here is the video for you to go through and learn:
 
-[![day-40](./banner.png)](https://youtu.be/w-ZCIbEU-0A "Video")
+[![day-40](./banner.png)](https://youtu.be/ITNaVrDk9G0 "Video")
 
 ## **👩‍💻 🧑‍💻 Assignment Tasks**
 
