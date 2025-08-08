@@ -1,7 +1,7 @@
 {
-  "name": "js-base-setup",
+  "name": "splitter",
   "version": "1.0.0",
-  "description": "javascript setup with tailwindcss and vite",
+  "description": "A JavaScript App to help you with your expense settlements",
   "main": "main.js",
   "scripts": {
     "start": "vite",
