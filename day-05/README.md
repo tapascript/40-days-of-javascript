@@ -1,4 +1,4 @@
-# Day 06 - 40 Days of JavaScript
+# Day 05 - 40 Days of JavaScript
 
 ## **🎯 Goal of This Lesson**
 
