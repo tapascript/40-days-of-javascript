@@ -90,3 +90,7 @@ You, all my `Stargazers`, are making it work. This is because of you. A BIG THAN
 - **`Day 39: JavaScript Interview Preparation Guide (By a 20-Year Industry Veteran)`** - [Watch Video](https://youtu.be/aCJUoYWwAj8) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-39/README.md)
 
 - **`Day 40: Master JavaScript with This Real-World Expense Splitter App (Full Guide)`** - [Watch Video](https://youtu.be/ITNaVrDk9G0) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-40/README.md)
+
+### Bonus Modules
+
+- **`MASTER JS DATES: The Only Guide You Need ⏰🔥`** - [Watch Video](https://youtu.be/EGjiq-JDF3I) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-41/README.md)
