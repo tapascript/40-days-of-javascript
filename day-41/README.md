@@ -1,5 +1,6 @@
 # Day 41 - MASTERING Date in JavaScript
 
+
 ## 🫶 Support
 
 Your support means a lot.
@@ -14,6 +15,9 @@ Your support means a lot.
 I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Cofee](https://buymeacoffee.com/tapasadhikary)**.
 
 ## **PART 1: 🎯 Goal of This Lesson**
+
+## **🎯 Goal of This Lesson**
+
 
 - ✅ The BIG Problem with JavaScript Dates 🛑
 - ✅ Why is Time Handling So Hard? ⏳
@@ -35,6 +39,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - ✅ Handling Daylight Saving Time (DST) Like a Pro ☀️
 - ✅ FINAL RECAP: Key Takeaways for Mastery 🎓
 
+
 ## Video
 
 Here is the video for you to go through and learn:
@@ -42,3 +47,4 @@ Here is the video for you to go through and learn:
 [![day-41-p-1](./banner.jpg)](https://youtu.be/EGjiq-JDF3I "Video")
 
 For, Part 2, Check this out: [MASTER JS DATES: The Only Guide You Need ⏰🔥](./intl/README.md)
+
