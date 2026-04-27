@@ -10,7 +10,7 @@ Your support means a lot.
 - Liked my work? It takes months of hard work to create quality content and present it to you. You can show your support for me with a STAR(⭐) to this repository.
 
     > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
-    [![Stargazers repo roster for tapascript/40-days-of-javascript](https://reporoster.com/stars/tapascript/40-days-of-javascript)](https://github.com/atapas/tapascript/40-days-of-javascript)
+    [![Stargazers repo roster for tapascript/40-days-of-javascript](https://reporoster.com/stars/tapascript/40-days-of-javascript)](https://github.com/tapascript/40-days-of-javascript)
 
 ### 🤝 Sponsor My Work
 
