@@ -82,13 +82,9 @@ You, all my `Stargazers`, are making it work. This is because of you. A BIG THAN
 ### Module 6 - Going Beyond
 
 - **`Day 36: Master JavaScript Performance with Debouncing, Throttling, and Memoization`** - [Watch Video](https://youtu.be/RnQPMARiq18) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-36/README.md)
-
 - **`Day 37: JavaScript Web APIs With Examples and an Open Source Project`** - [Watch Video](https://youtu.be/Ffpd8RkEXlY) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-37/README.md)
-
 - **`Day 38: JavaScript Memory Management & Garbage Collection`** - [Watch Video](https://youtu.be/w-ZCIbEU-0A) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-38/README.md)
-
 - **`Day 39: JavaScript Interview Preparation Guide (By a 20-Year Industry Veteran)`** - [Watch Video](https://youtu.be/aCJUoYWwAj8) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-39/README.md)
-
 - **`Day 40: Master JavaScript with This Real-World Expense Splitter App (Full Guide)`** - [Watch Video](https://youtu.be/ITNaVrDk9G0) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-40/README.md)
 
 ## Bonus Videos
@@ -96,5 +92,5 @@ You, all my `Stargazers`, are making it work. This is because of you. A BIG THAN
 ### JavaScript Date Module
 
 - **`MASTER JS DATES: The Only Guide You Need ⏰🔥`** - [Watch Video](https://youtu.be/EGjiq-JDF3I) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-41/README.md)
-
 - **`MASTER JS DATES: The Only Guide You Need ⏰🔥`** - [Watch Video](https://www.youtube.com/watch?v=Y3f1H4xGJ9Q) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-41/intl/README.md)
+- **`Temporal API: JavaScript Finally Fixed Dates After Three Decades!!!`** - [Watch Video](https://youtu.be/4TQKBnaIKZI) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-41/temporal/README.md)
