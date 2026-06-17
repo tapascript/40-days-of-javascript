@@ -10,7 +10,7 @@ Your support means a lot.
 - Liked my work? It takes months of hard work to create quality content and present it to you. You can show your support for me with a STAR(⭐) to this repository.
 
     > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
-    [![Stargazers repo roster for tapascript/40-days-of-javascript](https://reporoster.com/stars/tapascript/40-days-of-javascript)](https://github.com/atapas/tapascript/40-days-of-javascript)
+    [![Stargazers repo roster for tapascript/40-days-of-javascript](https://reporoster.com/stars/tapascript/40-days-of-javascript)](https://github.com/tapascript/40-days-of-javascript)
 
 ### 🤝 Sponsor My Work
 
@@ -89,8 +89,9 @@ You, all my `Stargazers`, are making it work. This is because of you. A BIG THAN
 
 ## Bonus Videos
 
-### JavaScript Date Module
+### JavaScript Date Modules: Date, INTL, and Temporal
 
 - **`MASTER JS DATES: The Only Guide You Need ⏰🔥`** - [Watch Video](https://www.youtube.com/watch?v=Y3f1H4xGJ9Q) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-41/intl/README.md)
 - **`STOP Using Date Libraries! The Native JS Intl API is Better 🔥`** - [Watch Video](https://www.youtube.com/watch?v=Y3f1H4xGJ9Q) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-41/intl/README.md)
 - **`Temporal API: JavaScript Finally Fixed Dates After Three Decades!!!`** - [Watch Video](https://youtu.be/4TQKBnaIKZI) || [Source Code](https://github.com/tapascript/40-days-of-javascript/blob/main/day-41/temporal/README.md)
+
