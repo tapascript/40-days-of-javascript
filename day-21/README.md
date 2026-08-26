@@ -11,7 +11,7 @@
   - ✅ When user selects a wrong answer, the right answer should be shown.
   - ✅ A result should be shown at the end of all the questions.
   - ✅ The result should also store the highest scorer and show that.
-  - ✅ There shold be a way to restart the game at the end.
+  - ✅ There should be a way to restart the game at the end.
 - ✅ Non Functional Requirements:
   - ✅ Good Look and Feel.
   - ✅ Optimal usages of the timer.
@@ -28,7 +28,7 @@ Your support means a lot.
 
 ### 🤝 Sponsor My Work
 
-I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Cofee](https://buymeacoffee.com/tapasadhikary)**.
+I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Coffee](https://buymeacoffee.com/tapasadhikary)**.
 
 ## Video
 

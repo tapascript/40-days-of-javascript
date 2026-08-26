@@ -15,8 +15,6 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 ## **PART 1: 🎯 Goal of This Lesson**
 
-## **🎯 Goal of This Lesson**
-
 - ✅ The BIG Problem with JavaScript Dates 🛑
 - ✅ Why is Time Handling So Hard? ⏳
 - ✅ The Core Struggle for Developers 💻
