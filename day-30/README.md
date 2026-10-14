@@ -6,9 +6,9 @@
 - ✅ What Will We Learn?
 - ✅ What is a Class?
 - ✅ ES6 Classes - Syntax
-- ✅ Initialize Objects 09:40 - “this” in Classes
+- ✅ Initialize Objects 09:40 - “this” in Classes
 - ✅ The Type of Class
-- ✅ Class as Expression 19:08 - Class Fields
+- ✅ Class as Expression 19:08 - Class Fields
 - ✅ Getters and Setters
 - ✅ Static Properties
 - ✅ Private and Public Fields
@@ -31,7 +31,7 @@ Your support means a lot.
 
 ### 🤝 Sponsor My Work
 
-I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Cofee](https://buymeacoffee.com/tapasadhikary)**.
+I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Coffee](https://buymeacoffee.com/tapasadhikary)**.
 
 ## Video
 

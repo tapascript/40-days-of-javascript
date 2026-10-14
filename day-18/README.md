@@ -12,14 +12,14 @@
 - ✅ Security Risk of innerHTML
 - ✅ Modify Content - textContent
 - ✅ Removing Elements
-- ✅ Travarsing DOM
+- ✅ Traversing DOM
 - ✅ Manipulating Styles
 - ✅ Manipulating Classes
-- ✅ Working with classLIst
+- ✅ Working with classList
 - ✅ Controlling Visibility
 - ✅ Project 1 - Toggle Me
 - ✅ Project 2 - Task Manager
-0- ✅ Tasks and Wrapping Up
+- ✅ Tasks and Wrapping Up
 
 ## 🫶 Support
 
@@ -32,7 +32,7 @@ Your support means a lot.
 
 ### 🤝 Sponsor My Work
 
-I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Cofee](https://buymeacoffee.com/tapasadhikary)**.
+I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Coffee](https://buymeacoffee.com/tapasadhikary)**.
 
 ## Video
 

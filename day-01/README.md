@@ -20,7 +20,7 @@ Your support means a lot.
     > Many Thanks to all the `Stargazers` who have supported this project with stars(⭐)
 
 ### 🤝 Sponsor My Work
-I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Cofee](https://buymeacoffee.com/tapasadhikary)**.
+I am an independent educator and open-source enthusiast who creates meaningful projects to teach programming on my YouTube Channel. **You can support my work by [Sponsoring me on GitHub](https://github.com/sponsors/atapas) or [Buy Me a Coffee](https://buymeacoffee.com/tapasadhikary)**.
 
 ## Video
 Here is the video for you to go through and learn:
@@ -50,7 +50,7 @@ Here is the video for you to go through and learn:
 ### ✅ Task 3: Experiment with Different JavaScript Loading Methods
 1. Add the script in `<head>`, end of the `<body>` tag.
 2. Use `async` and `defer` attributes
-3. Understand the difefrences.
+3. Understand the differences.
 
 ### ✅ Task 4: Take Notes and Submit
 1. Hope you have captured a good notes of your learning.
