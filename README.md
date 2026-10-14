@@ -20,7 +20,7 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 You, all my `Stargazers`, are making it work. This is because of you. A BIG THANK YOU to all of you ❤️.
 
-[![Star History Chart](https://star-history.dera.page/svg?repos=tapascript/40-days-of-javascript&type=Date)](https://star-history.dera.page/#tapascript/40-days-of-javascript&type=Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=tapascript/40-days-of-javascript)](https://star-history.dera.page/tapascript/40-days-of-javascript)
 
 ## 🥇 Join the Discord Server
 
